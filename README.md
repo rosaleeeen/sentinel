@@ -1,4 +1,4 @@
-# 🤫 shhh... secrets revealed ₍ᐢ`🐽´ᐢ₎ 
+# 🤫 shhh... sentinel ₍ᐢ`🐽´ᐢ₎ 
 
 **a spring boot service that wraps the [trufflehog](https://trufflesecurity.com/trufflehog) CLI!**
 > exposes lightweight HTTP endpoints for retrieving the scanner version and running repository scans, returning the raw NDJSON output parsed into structured JSON.
@@ -20,7 +20,7 @@ use the Gradle wrapper to build and start the application:
 ./gradlew bootRun
 ```
 
-a few silly example endpoints:
+example endpoints:
 ```bash
 curl "http://localhost:8080/version"
 ```
